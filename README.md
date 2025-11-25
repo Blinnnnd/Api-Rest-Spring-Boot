@@ -66,26 +66,32 @@ Para verificar la base de datos en memoria:
 
 ### 1. Documentación Completa (Swagger UI)
 Se muestra la interfaz de Swagger con todos los controladores documentados.
+
 ![Swagger UI](img/Documentacion-Completa.png)
 
 ### 2. Creación de Producto (POST 201 Created)
 Prueba de creación exitosa de un producto válido.
+
 ![POST 201 Created](img/Crear-item.png)
 
 ### 3. Listado de Productos (GET 200 OK)
 Recuperación de la lista de productos cargados.
+
 ![GET 200 OK](img/listado-de-productos.png)
 
 ### 4. Manejo de Errores (404 Not Found)
-Intento de obtener un ID que no existe (ej: ID 999).
+Intento de obtener un ID que no existe (ej: ID 2).
+
 ![404 Not Found](img/Error-404.png)
 
 ### 5. Validación de Datos (400 Bad Request)
 Intento de crear producto con precio negativo o nombre vacío.
+
 ![400 Bad Request](img/400-creacion-erronea.png)
 
 ### 6. Persistencia en Base de Datos (H2 Console)
 Evidencia de que los datos se guardaron en la tabla PRODUCTOS.
+
 ![H2 Console](img/H2-Productos-Guardados.png)
 
 🧠 Conclusiones Personales
