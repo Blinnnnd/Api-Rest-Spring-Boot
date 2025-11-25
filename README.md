@@ -82,7 +82,7 @@ Se muestra la interfaz de Swagger con todos los controladores documentados.
 ### 2. Creación de Producto (POST 201 Created)
 Prueba de creación exitosa de un producto válido.
 
-![POST 201 Created](img/Crear-item.png)
+![POST 201 Created](img/Crear-Item.png)
 
 ### 3. Listado de Productos (GET 200 OK)
 Recuperación de la lista de productos cargados.
