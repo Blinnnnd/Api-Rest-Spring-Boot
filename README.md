@@ -45,7 +45,17 @@ Bash
 
 La aplicación iniciará en el puerto 8080.
 
-🔌 Tabla de Endpoints (API Reference)MétodoRutaDescripciónGET/api/productosObtiene el listado de todos los productos.GET/api/productos/{id}Busca un producto específico por su ID único.GET/api/productos/categoria/{cat}Filtra productos por categoría (ej: ELECTRONICA).POST/api/productosCrea un nuevo producto (requiere validación de cuerpo JSON).PUT/api/productos/{id}Actualiza la información completa de un producto existente.PATCH/api/productos/{id}/stockActualiza únicamente el stock de un producto.DELETE/api/productos/{id}Elimina un producto del sistema.
+## Tabla de Endpoints (API Reference)
+
+| Método | Ruta | Descripción |
+| :--- | :--- | :--- |
+| **GET** | `/api/productos` | Obtiene el catálogo completo de productos. |
+| **GET** | `/api/productos/{id}` | Busca el detalle de un producto por ID. |
+| **GET** | `/api/productos/categoria/{cat}` | Filtra el inventario por categoría (ej: ELECTRONICA). |
+| **POST** | `/api/productos` | Registra un nuevo ítem (valida datos de entrada). |
+| **PUT** | `/api/productos/{id}` | Actualiza la información completa de un producto. |
+| **PATCH**| `/api/productos/{id}/stock` | Ajuste rápido de nivel de stock. |
+| **DELETE**| `/api/productos/{id}` | Da de baja un producto del sistema. |
 
 ## Documentación y Herramientas
 
@@ -62,7 +72,7 @@ Para verificar la base de datos en memoria:
 
 *(Nota: Si la consola sugiere `testdb` por defecto, cámbielo manualmente a `productosdb` porque si no anda)*.
 
-## 📸 Evidencia de Pruebas (Screenshots)
+## Evidencia de Pruebas (Screenshots)
 
 ### 1. Documentación Completa (Swagger UI)
 Se muestra la interfaz de Swagger con todos los controladores documentados.
