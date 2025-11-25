@@ -89,14 +89,17 @@ Evidencia de que los datos se guardaron en la tabla PRODUCTOS.
 ![H2 Console](img/H2-Productos-Guardados.png)
 
 🧠 Conclusiones Personales
-El desarrollo de este Trabajo Práctico me permitió consolidar los conocimientos sobre la arquitectura REST en el ecosistema Spring Boot. Puntos clave aprendidos:
 
-Importancia de la Arquitectura en Capas: Entendí cómo separar la lógica de negocio (Service) del manejo de peticiones (Controller) facilita el mantenimiento.
+El desarrollo de este Trabajo Práctico me permitió consolidar los conocimientos sobre la arquitectura REST en el ecosistema Spring Boot. 
 
-DTOs vs Entidades: Aprendí a no exponer mis entidades de base de datos directamente, utilizando DTOs para controlar qué datos entran y salen de la API.
+Puntos clave aprendidos:
 
-Manejo de Errores: La implementación de GlobalExceptionHandler permite dar respuestas limpias y profesionales al cliente.
+- Importancia de la Arquitectura en Capas: Entendí cómo separar la lógica de negocio (Service) del manejo de peticiones (Controller) facilita el mantenimiento.
 
-Documentación Viva: Swagger resulta indispensable para que otros desarrolladores entiendan y prueben la API sin necesidad de leer el código fuente.
+- DTOs vs Entidades: Aprendí a no exponer mis entidades de base de datos directamente, utilizando DTOs para controlar qué datos entran y salen de la API.
 
-Tecnicatura Universitaria en Programación - UTN
+- Manejo de Errores: La implementación de GlobalExceptionHandler permite dar respuestas limpias y profesionales al cliente.
+
+- Documentación Viva: Swagger resulta indispensable para que otros desarrolladores entiendan y prueben la API sin necesidad de leer el código fuente.
+
+- Tecnicatura Universitaria en Programación - UTN
