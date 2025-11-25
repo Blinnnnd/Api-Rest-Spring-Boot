@@ -25,7 +25,7 @@ La aplicación implementa una **arquitectura en capas** (Controller, Service, Re
 
 ### 1. Clonar el repositorio
 ```bash
-git clone [URL_DE_TU_REPOSITORIO_GITHUB]
+git clone https://github.com/Blinnnnd/Api-Rest-Spring-Boot.git
 cd tp-api-productos
 2. Ejecutar la aplicaciónEl proyecto utiliza el wrapper de Maven (mvnw) para facilitar la ejecución sin necesidad de tener Maven instalado globalmente.En Windows:DOS./mvnw.cmd spring-boot:run
 En Mac/Linux:Bash./mvnw spring-boot:run
